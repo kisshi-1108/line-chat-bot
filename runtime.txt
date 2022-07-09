@@ -7,5 +7,5 @@ $ source line-bot/bin/activate
 $ echo line-bot/ > .gitignore
 $ pip install flask line-bot-sdk
 $ pip freeze > requirements.txt
-$ echo python-3.6.13 > runtime.txt
+$ echo python-3.7.13 > runtime.txt
 $ echo web: python main.py > Procfile
