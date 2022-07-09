@@ -1,11 +1,1 @@
-$ mkdir line-bot-python
-$ cd line-bot-python
-$ python --version
 python-3.7.13
-$ python -m venv line-bot
-$ source line-bot/bin/activate
-$ echo line-bot/ > .gitignore
-$ pip install flask line-bot-sdk
-$ pip freeze > requirements.txt
-$ echo python-3.7.13 > runtime.txt
-$ echo web: python main.py > Procfile
